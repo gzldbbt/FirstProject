@@ -314,7 +314,7 @@ namespace HelloWorld
             }
         }
 
-        //FUNCTION SEE ALL ITEMS OF INVENTARY
+        //FUNCTION SEE ALL ITEMS OF INVENTORY
         /// <summary>
         /// Function that show al the data of the Inventary
         /// </summary>
@@ -398,7 +398,7 @@ namespace HelloWorld
         }
 
 
-        //VALIDATION OF INVENTARY IS IN STOCK
+        //VALIDATION OF INVENTORY IS IN STOCK
         /// <summary>
         /// Validation of iventory is in stock
         /// </summary>
@@ -604,7 +604,7 @@ namespace HelloWorld
         static string ValidateLongString(int minimun, int maximun)
         {
             string toReturn = ReadString();
-            while (toReturn.Length > minimun && toReturn.Length < maximun)
+            while (toReturn.Length < minimun || toReturn.Length > maximun)
             {
                 Console.Write("Invalid Password, try again:");
                 toReturn = ReadString();
@@ -842,7 +842,7 @@ namespace HelloWorld
             bool canConvert = int.TryParse(toReturn, out int number);
             while (canConvert == true || System.String.IsNullOrEmpty(toReturn) || toReturn == " ")
             {
-                Console.Write("Invalid Name, try again:");
+                Console.Write("Invalid Name or password, try again:");
                 toReturn = Console.ReadLine();
                 canConvert = int.TryParse(toReturn, out number);
             }

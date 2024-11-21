@@ -12,3 +12,4 @@
 /Users/liming/Desktop/myProject/MyFirstProject/HelloWorld/obj/Debug/net9.0/HelloWorld.pdb
 /Users/liming/Desktop/myProject/MyFirstProject/HelloWorld/obj/Debug/net9.0/HelloWorld.genruntimeconfig.cache
 /Users/liming/Desktop/myProject/MyFirstProject/HelloWorld/obj/Debug/net9.0/ref/HelloWorld.dll
+/Users/liming/Desktop/myProject/MyFirstProject/HelloWorld/obj/Debug/net9.0/HelloWorld.sourcelink.json
